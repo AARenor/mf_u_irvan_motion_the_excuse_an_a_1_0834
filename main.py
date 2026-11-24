@@ -1,6 +1,8 @@
 import os
 import sys
 
+# Output directory: MAKEFUN_OUTPUT_DIR takes precedence, then OUTPUT_DIR, then /output.
+
 TEXT = "I lost the bounty. I'd blame the model, but I am the model."
 
 assert 1 <= len(TEXT) <= 280
